@@ -1,0 +1,4 @@
+//Modificacion de registros
+UPDATE "Productos"
+SET Cod_prod = valor1, columna2 = valor2
+WHERE columna3 = valor3
