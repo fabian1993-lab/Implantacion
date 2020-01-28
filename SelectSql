@@ -1,0 +1,9 @@
+// Mostrar todos los registros de la tabla
+// Forma 1
+SELECT "Cod_prod", "Detalle_prod", "Cantidad_prod", "Precio_prod", "FechaIngreso_prod", 
+       "Observaciones_prod"
+  FROM "Productos";
+  
+// Forma 2
+SELECT *
+  FROM "Productos";
