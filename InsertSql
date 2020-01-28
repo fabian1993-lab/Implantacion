@@ -1,0 +1,9 @@
+// Forma 1
+INSERT INTO "Productos"(
+            "Cod_prod", "Detalle_prod", "Cantidad_prod", "Precio_prod", "FechaIngreso_prod", 
+            "Observaciones_prod")
+    VALUES (100, 'Manzanas', 200, 0.25, '28/01/2020', 'Ninguna');
+
+// Forma 2
+INSERT INTO "Productos"
+    VALUES (101, 'Peras', 200, 0.25, '28/01/2020', 'Ninguna');
