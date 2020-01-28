@@ -1,4 +1,4 @@
 //Modificacion de registros
 UPDATE "Productos"
-SET Cod_prod = valor1, columna2 = valor2
-WHERE columna3 = valor3
+SET "Detalle_prod" = 'Uvas', "Cantidad_prod" = 500
+WHERE "Cod_prod" = 101
