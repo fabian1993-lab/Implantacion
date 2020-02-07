@@ -7,3 +7,11 @@ SELECT "Cod_prod", "Detalle_prod", "Cantidad_prod", "Precio_prod", "FechaIngreso
 // Forma 2
 SELECT *
   FROM "Productos";
+
+// Mostrar el promedio de los precios de los productos
+SELECT AVG("Precio_prod") AS Promedio_Precios
+  FROM "Productos";
+  
+ // Mostrar la suma de las cantidades de productos
+SELECT SUM("Cantidad_prod") AS Cantidad_Productos
+  FROM "Productos";
