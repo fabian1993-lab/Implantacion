@@ -1,4 +1,15 @@
 //Modificacion de registros
+//Establecer el detalle uvas la cantidad 500 donde el codigo sea 101
 UPDATE "Productos"
 SET "Detalle_prod" = 'Uvas', "Cantidad_prod" = 500
 WHERE "Cod_prod" = 101
+
+//Establecer el detalle uvas y la cantidad 500 donde el precio sea 0.25
+UPDATE "Productos"
+SET "Detalle_prod" = 'Uvas', "Cantidad_prod" = 500
+WHERE "Precio_prod" = 0.25
+
+//Establecer el precio en 0.25 y la cantidad en 100 donde el detalle sea Uvas
+UPDATE "Productos"
+SET "Precio_prod" = 0.25, "Cantidad_prod" = 100
+WHERE "Detalle_prod" = 'Uvas'
