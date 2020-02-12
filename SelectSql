@@ -15,3 +15,7 @@ SELECT AVG("Precio_prod") AS Promedio_Precios
  // Mostrar la suma de las cantidades de productos
 SELECT SUM("Cantidad_prod") AS Cantidad_Productos
   FROM "Productos";
+
+ // Mostrar el total de registros de la tabla productos
+SELECT COUNT("Detalle_prod") AS Total_Registros
+  FROM "Productos";
