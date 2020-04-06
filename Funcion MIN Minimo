@@ -1,0 +1,7 @@
+// Mostrar el precio mas bajo de los productos
+SELECT MIN("Precio_prod") AS Precio_Maximo
+  FROM "Productos";
+
+// Mostrar la cantidad mas baja de productos disponibles
+SELECT MIN("Cantidad_prod") AS Cantidad_Maxima
+  FROM "Productos";
