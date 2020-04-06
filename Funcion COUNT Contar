@@ -1,0 +1,4 @@
+/* Funcion Count - Contar */
+ // Mostrar el total de registros de la tabla productos
+SELECT COUNT("Detalle_prod") AS Total_Registros
+  FROM "Productos";
