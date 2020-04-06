@@ -1,0 +1,5 @@
+/* Funciones del SELECT */
+// FUNCION AVG - PROMEDIO
+// Mostrar el promedio de los precios de los productos
+SELECT AVG("Precio_prod") AS Promedio_Precios
+  FROM "Productos";
