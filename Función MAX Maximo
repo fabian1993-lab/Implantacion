@@ -1,1 +1,7 @@
+// Mostrar el precio mas alto de los productos
+SELECT MAX("Precio_prod") AS Precio_Maximo
+  FROM "Productos";
 
+// Mostrar la cantidad mas alta de productos disponibles
+SELECT MAX("Cantidad_prod") AS Cantidad_Maxima
+  FROM "Productos";
