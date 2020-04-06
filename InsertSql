@@ -6,6 +6,6 @@ INSERT INTO "Productos"(
     VALUES (100, 'Manzanas', 200, 0.25, '28/01/2020', 'Ninguna');
 
 // Forma 2
-// Es mas corta la sintaxis, pero no muy confiable, ya que puedes confundir el orden en el que se encuentran los campos en l tabla
+// Es mas corta la sintaxis, pero no muy confiable, ya que puedes confundir el orden en el que se encuentran los campos en la tabla
 INSERT INTO "Productos"
     VALUES (101, 'Peras', 200, 0.25, '28/01/2020', 'Ninguna');
