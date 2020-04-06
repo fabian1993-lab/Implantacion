@@ -9,18 +9,3 @@ SELECT "Cod_prod", "Detalle_prod", "Cantidad_prod", "Precio_prod", "FechaIngreso
 // Es la forma mas practica de referirnos a todos los campos de la tabla
 SELECT *
   FROM "Productos";
-
-/* Funciones del SELECT */
-// FUNCION AVG - PROMEDIO
-// Mostrar el promedio de los precios de los productos
-SELECT AVG("Precio_prod") AS Promedio_Precios
-  FROM "Productos";
-
-// FUNCION SUM - SUMA
- // Mostrar la suma de las cantidades de productos
-SELECT SUM("Cantidad_prod") AS Cantidad_Productos
-  FROM "Productos";
-
- // Mostrar el total de registros de la tabla productos
-SELECT COUNT("Detalle_prod") AS Total_Registros
-  FROM "Productos";
