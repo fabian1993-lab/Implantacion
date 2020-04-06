@@ -1,0 +1,4 @@
+// FUNCION SUM - SUMA
+ // Mostrar la suma de las cantidades de productos
+SELECT SUM("Cantidad_prod") AS Cantidad_Productos
+  FROM "Productos";
